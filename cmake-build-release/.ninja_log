@@ -1,0 +1,7 @@
+# ninja log v5
+8	469	6787589288014844	CMakeFiles/CarEvolved.dir/Entities/Camera.cpp.obj	2b17461c384c0acb
+10	538	6787589288675413	CMakeFiles/CarEvolved.dir/Collision/AABB.cpp.obj	3ea61d6861900010
+13	575	6787589289085769	CMakeFiles/CarEvolved.dir/Entities/Mesh.cpp.obj	137258e6b54a3298
+1	1425	6787589297558037	CMakeFiles/CarEvolved.dir/main.cpp.obj	837b7247e31d46a3
+1430	1549	6787589298809116	CarEvolved.exe	599979486944ac9e
+0	10	0	clean	f79cb84a9874db96
