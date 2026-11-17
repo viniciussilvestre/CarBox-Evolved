@@ -94,11 +94,11 @@ void init()
     glEnable(GL_LIGHT0);
     glEnable(GL_DEPTH_TEST);
 
-    Road = loadOBJInOpenGL(R"(C:\Users\vinic\OneDrive\Trabalhos legais\CarBox Evolved\Blender Files\Road.obj)");
-    GrassField = loadOBJInOpenGL(R"(C:\Users\vinic\OneDrive\Trabalhos legais\CarBox Evolved\Blender Files\GrassField.obj)");
-    MiddleOfRoad = loadOBJInOpenGL(R"(C:\Users\vinic\OneDrive\Trabalhos legais\CarBox Evolved\Blender Files\MiddleRoad.obj)");
-    Walls = loadOBJInOpenGL(R"(C:\Users\vinic\OneDrive\Trabalhos legais\CarBox Evolved\Blender Files\Walls.obj)");
-    car = loadOBJInOpenGL(R"(C:\Users\vinic\OneDrive\Trabalhos legais\CarBox Evolved\Blender Files\car.obj)");
+    Road = loadOBJInOpenGL(ASSETS_DIR "Road.obj");
+    GrassField = loadOBJInOpenGL(ASSETS_DIR "GrassField.obj");
+    MiddleOfRoad = loadOBJInOpenGL(ASSETS_DIR "MiddleRoad.obj");
+    Walls = loadOBJInOpenGL(ASSETS_DIR "Walls.obj");
+    car = loadOBJInOpenGL(ASSETS_DIR "car.obj");
     car.prepareCar();
     trackOuterCollisionBox.setId("outerWall");
     trackOuterCollisionBox.setDistances(outerDistances);
